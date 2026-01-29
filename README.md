@@ -10,6 +10,10 @@ In comparison to similar overlays, WayVR aims to run alongside VR games and expe
 
 ![Screenshot of WayVR being used as an OpenXR home environment](https://github.com/wlx-team/wayvr/blob/guide/wayvr-readme-screenshot.webp?raw=true)
 
+## Changes
+
+This fork changes the battery update timmer to 5 seconds instead of 30 for use with F1dg3t's OSC based avatar assets.
+
 ## Join the Linux VR Community
 
 We are available on either **Discord** or **Matrix space**:
