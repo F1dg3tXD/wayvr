@@ -202,7 +202,7 @@ pub fn openvr_run(show_by_default: bool, headless: bool) -> Result<(), BackendEr
             if changed {
                 overlays.devices_changed(&mut app)?;
             }
-            next_device_update = Instant::now() + Duration::from_secs(30);
+            next_device_update = Instant::now() + Duration::from_secs(5);
         }
 
         app.dbus.tick();
